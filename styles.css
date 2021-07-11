@@ -1,0 +1,70 @@
+/* Master Styles*/
+body {
+    margin: 0px;
+    background-image: url(images/Kayuun_1_fix.png);
+    background-size: 65%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-col {
+    display: flex;
+}
+
+.nav-wrap > .left-col > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.link-wrap {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.link-wrap a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link-wrap:hover {
+    border-bottom: 1px solid white;
+}
+
+.link-wrap a:hover {
+    color: white;
+}
+
+/* Portfolio Styles */
+.portfolio-items-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.portfolio-item-wrap {
+    position: relative;
+    top: 550px;
+}
+
+.portfolio-image-bg {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
